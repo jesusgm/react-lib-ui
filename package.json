@@ -1,6 +1,6 @@
 {
   "name": "@jesusgm/react-lib-ui",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "React lib with common components for personal projects",
   "main": "index.js",
   "scripts": {
