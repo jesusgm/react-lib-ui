@@ -12,6 +12,7 @@
     "storybook:build": "build-storybook -c .storybook -o docs",
     "doc:dev": "npm run storybook:dev",
     "doc:build": "npm run storybook:build",
+    "build:all": "npm run build-lib && npm run storybook:build && npm run doc:build",
     "release": "np"
   },
   "repository": {
