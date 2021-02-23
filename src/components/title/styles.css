@@ -1,0 +1,48 @@
+@import "../../styles/global.css";
+
+.level-1 {
+    font-size: 3rem;
+}
+
+.level-2 {
+    font-size: 2rem;
+}
+
+.level-3 {
+    font-size: 1.6rem;
+}
+
+.level-4 {
+    font-size: 1.4rem;
+}
+
+.level-5 {
+    font-size: 1rem;
+}
+
+.level-6 {
+    font-size: .8rem;
+}
+
+.level-1, .level-2,.level-3,.level-4,.level-5,.level-6{
+    display: block;
+    color: var(--color-tertiary);
+}
+
+.level-1.align-center,
+.level-2.align-center,
+.level-3.align-center,
+.level-4.align-center,
+.level-5.align-center,
+.level-6.align-center {
+    text-align: center;
+}
+
+.level-1.align-right,
+.level-2.align-right,
+.level-3.align-right,
+.level-4.align-right,
+.level-5.align-right,
+.level-6.align-right {
+    text-align: right;
+}

@@ -1,0 +1,42 @@
+@import "../../styles/global.css";
+
+.btn{
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    min-width: 140px;
+    outline: none;
+}
+
+.btn.btn-primary{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid var(--color-primary);
+    color: var(--color-fourth);
+    background: var(--color-primary);
+}
+.btn.btn-primary:hover{
+    border: 1px solid var(--color-primary);
+    color: var(--color-primary);
+    background: var(--color-secondary);
+}
+
+
+.btn.btn-secondary {
+    border: 1px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: var(--color-primary);
+    background: var(--color-fourth);
+}
+
+.btn.btn-secondary:hover{
+    background: #fff;
+    color: #000;
+    border-color: #000;   
+}
+
+.btn.btn-tertiary {
+    border: none;
+    background: none;
+}

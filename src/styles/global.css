@@ -1,0 +1,19 @@
+@import url('./fonts/Inter/inter.css');
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+    html {
+        font-family: 'Inter var', sans-serif;
+    }
+}
+
+:root {
+    --color-text: #304050;
+    --color-primary: #0081CF;
+    --color-secondary: #A5CFE3;
+    --color-tertiary: #00221C;
+    --color-fourth: #E7F6FC;
+}
