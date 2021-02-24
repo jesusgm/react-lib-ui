@@ -5,9 +5,6 @@ import { Title } from "../components/title/";
 export default {
   title: "Title",
   component: Title,
-  argTypes: {
-    backgroundColor: { control: "color" },
-  },
 };
 
 const Template = (args) => <Title {...args} />;

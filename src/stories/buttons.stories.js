@@ -1,27 +1,39 @@
 import React from "react";
 
-import Button from "../components/button/";
+import { Button } from "../components/button/";
 
 export default {
   title: "Buttons",
   component: Button,
+  argTypes: {
+    backgroundColor: { control: "color" },
+  },
 };
 
-export const Buttons = () => (
-  <div>
-    <h2>Primary</h2>
-    <Button type="primary" onClick={() => console.log("cliked!")}>
-      Primary
-    </Button>
-
-    <h2>Secondary</h2>
-    <Button type="secondary" onClick={() => console.log("cliked!")}>
-      Secondary
-    </Button>
-
-    <h2>Tertiary</h2>
-    <Button type="tertiary" onClick={() => console.log("cliked!")}>
-      Tertiary
-    </Button>
-  </div>
+const Template = (args) => (
+  <Button
+    {...args}
+    children="Lorem ipsum dolor sit amet"
+    onClick={() => console.log("cliked!")}
+  />
 );
+
+export const PrimaryButton = Template.bind({});
+PrimaryButton.args = {
+  type: "primary",
+};
+
+export const SecondaryButton = Template.bind({});
+SecondaryButton.args = {
+  type: "secondary",
+};
+
+export const TertiaryButton = Template.bind({});
+TertiaryButton.args = {
+  type: "tertiary",
+};
+
+export const CustomButton = Template.bind({});
+CustomButton.args = {
+  type: "custom",
+};

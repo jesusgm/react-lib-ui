@@ -1,7 +1,11 @@
 import React from "react";
 
+import "./styles.css";
+
+const noop = () => {};
+
 export const Button = (props) => {
-  const { className, children, type, onClick } = props;
+  const { className = " ", children, type = "primary", onClick = noop } = props;
 
   return (
     <button
@@ -11,12 +15,4 @@ export const Button = (props) => {
       {children}
     </button>
   );
-};
-
-const noop = () => {};
-
-Button.defaultProps = {
-  className: "",
-  type: "primary",
-  onClick: noop,
 };

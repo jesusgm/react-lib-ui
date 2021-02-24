@@ -3,7 +3,7 @@ import React from "react";
 import "./styles.css";
 
 export const Title = (props) => {
-  const { level, className, children, onBack, align } = props;
+  const { level = 1, className, children, onBack, align = "left" } = props;
 
   const algn = align ? `align-${align}` : "";
   const lvl = level ? `level-${level}` : "";
@@ -17,6 +17,7 @@ export const Title = (props) => {
       return (
         <h2 className={`${className || ""} ${algn} ${lvl}`}>{children}</h2>
       );
+    default:
     case 3:
       return (
         <h3 className={`${className || ""} ${algn} ${lvl}`}>{children}</h3>
@@ -34,9 +35,4 @@ export const Title = (props) => {
         <h6 className={`${className || ""} ${algn} ${lvl}`}>{children}</h6>
       );
   }
-};
-
-Title.defaultProps = {
-  level: 1,
-  align: "left",
 };
