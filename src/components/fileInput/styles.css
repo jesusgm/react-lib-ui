@@ -1,0 +1,51 @@
+.file-input-field {
+    display: none
+}
+
+.drop-area {
+    padding: 20px 0;
+    text-align: center;
+    border: 1px dashed #ccc;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.file-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    padding: 0 10px;
+}
+
+.file-list .file {
+    position: relative;
+    text-align: center;
+    word-wrap: break-word;
+    margin-right: 20px;
+    width: 75px;
+}
+
+.file-list .file .icon {
+    font-size: 50px;
+    display: block;
+    margin: 0 auto;
+    color: #999;
+    padding: 0px 15px;
+}
+
+.file-list .file .file-name {
+    font-size: 12px;
+}
+
+.file-list .file .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    cursor: pointer;
+}
+
+.file-list .file .close .icon {
+    font-size: 15px;
+    color: #000;
+}

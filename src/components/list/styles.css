@@ -1,0 +1,7 @@
+ul.list {
+    list-style: none;
+}
+
+ul.list .selected {
+    background: #ccc;
+}

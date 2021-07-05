@@ -1,0 +1,18 @@
+.backArrow {
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f9f9f9;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform ease-in .1s;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.backArrow {
+    left: 5px;
+}

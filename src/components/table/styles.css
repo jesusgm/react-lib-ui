@@ -1,0 +1,37 @@
+.table {
+    border: 1px solid
+}
+
+
+.table .table-row {}
+
+.table .header-cell {
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid;
+}
+
+.table .table-cell {
+    padding: 5px 10px;
+}
+
+
+.table .table-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table .pagination-change span {
+    padding: 5px;
+    cursor: pointer;
+    color: blue
+}
+
+.table .pagination-change span.disabled {
+    color: grey;
+    cursor: default;
+}
+
+.table {}
+
+.table {}

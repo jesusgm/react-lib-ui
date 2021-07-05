@@ -14,7 +14,7 @@ const Template = (args) => (
   <Button
     {...args}
     children="Lorem ipsum dolor sit amet"
-    onClick={() => console.log("cliked!")}
+    onClick={() => alert("cliked!")}
   />
 );
 

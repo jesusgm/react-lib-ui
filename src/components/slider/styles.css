@@ -1,0 +1,23 @@
+.slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slider .slider-wrapper {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.slider .elements-container {
+    position: absolute;
+    top: 50%;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
